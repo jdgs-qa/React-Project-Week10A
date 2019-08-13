@@ -1,25 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import User from './user/user';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-4">
+      <h3 className="text-center"><span role="img" aria-label="vulcan emoji">🖖</span> Live Long and Prosper! <span role="img" aria-label="vulcan emoji">🖖</span></h3>
+      <User />
     </div>
+
   );
 }
 
