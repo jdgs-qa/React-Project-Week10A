@@ -14,6 +14,6 @@ export const CardData = [
         cardText: "When in your hand, any Borg in play are reduced to strength 0",
         cardFlav: "The first duty of every Starfleet officer is to the truth, whether it is scientific truth or historical truth or personal truth. It is the guiding principle on which Starfleet is based!",
         imgURL: "https://vignette.wikia.nocookie.net/memoryalpha/images/b/bf/Jean-Luc_Picard%2C_2379.jpg/revision/latest?cb=20180924193040&path-prefix=en",
-        cardAuth: "theHSIdiots"
+        cardAuth: "theTrekkies"
     }
 ]
