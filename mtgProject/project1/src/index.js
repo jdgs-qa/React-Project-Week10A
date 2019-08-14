@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Deck from './Deck';
 
-ReactDOM.render(<Deck />, document.getElementById('root'));
+ReactDOM.render(<Deck cardNo="3" />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

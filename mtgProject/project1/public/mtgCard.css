@@ -17,7 +17,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'IBM Plex Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -51,11 +51,12 @@ body* > {
     border: 1px solid black;
     width: 500px;
     height: 700px;
-    margin: 0 auto;
-    margin-top: 56px;
-    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
     box-sizing: border-box;
-    background: #171314;  
+    background: #171314;
+    float: left;
 }
  .card-background {
     height: 600px;
@@ -92,7 +93,7 @@ body* > {
 .frame-type-line {
     box-shadow: 
         0 0 0 2px #171314,
-        0 0 0 5px #26714A,
+        0 0 0 5px #8C212B,
         -3px 3px 2px 5px #171314;
 
     margin-bottom: 7px;
@@ -100,7 +101,7 @@ body* > {
 
 .frame-text-box {
     box-shadow: 
-        0 0 0 5px #26714A,
+        0 0 0 5px #8C212B,
         -3px 3px 2px 5px #171314;
 }
 
@@ -174,11 +175,13 @@ body* > {
     height: 20px;
     align-self: center;
 }
+
 .frame-art {
     height: 50%;
     margin: 0 10px; 
     object-fit: cover;
     max-width: 100%;
+    max-height: 280px;
 }
 
 #set-icon {
@@ -215,10 +218,6 @@ p {
 .ftb-inner-margin {
     margin: 5px 1px;
 }
-
-
-
-
 
 .frame-bottom-info {
     color: white;
